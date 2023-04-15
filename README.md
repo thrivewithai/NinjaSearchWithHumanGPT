@@ -1,8 +1,7 @@
 <div align="center"> <img src="https://raw.githubusercontent.com/thrivewithai/NinjaSearchWithHumanGPT/main/ninja_with_cat.png"> </div>
 
 # NinjaSearchWithHumanGPT 🥷
-PoC
-An agent with human in the loop that can search the web for information while bypassing bot detection for private sites.
+(This is a PoC) An agent with human in the loop that can search the web for information while bypassing bot detection for private sites.
 
 ## Getting Started
 To get started with the repo, you will need to set up the necessary environment variables. In particular, you will need to create and set the following environment variables:
