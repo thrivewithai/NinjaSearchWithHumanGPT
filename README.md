@@ -1,6 +1,7 @@
 <div align="center"> <img src="https://raw.githubusercontent.com/thrivewithai/NinjaSearchWithHumanGPT/main/ninja_with_cat.png"> </div>
 
 # NinjaSearchWithHumanGPT 🥷
+PoC
 An agent with human in the loop that can search the web for information while bypassing bot detection for private sites.
 
 ## Getting Started
