@@ -23,6 +23,11 @@ The chatbot will prompt you to follow certain requirements in order to achieve y
 The chatbot also includes a custom tool called ninjaSearch which is designed to bypass bot detection for private websites. 
 The tool will scrape the specified URL and return a summary of the page's contents.
 
+The tool summarizes the response from the URL in the following steps:
+1. Split the html into chunks using `RecursiveCharacterTextSplitter`
+2. Create a vector representation of the chunks and save it into db (we used FAISS in this example)
+3. Create a retriever (`RetrievalQA`) from the llm and db so that we can ask questions from the content of the page.
+
 ## Note
 
 - I've tested successfully with LinkedIn urls (e.g., https://www.linkedin.com/in/hirokihori), but after a couple of attempts, I started getting rejected. It's still not working at the time of writing this (4/15/2023). I rotated my proxy, but it still blocks me so LinkedIn automatically started blocking requests through Zenrows (?) Not really sure. 
