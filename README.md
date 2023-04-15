@@ -1,4 +1,4 @@
-# NinjaSearchWithHumanGPT
+# NinjaSearchWithHumanGPT 🥷
 An agent with human in the loop that can search the web for information while bypassing bot detection for private sites.
 
 ## Getting Started
@@ -22,6 +22,11 @@ The chatbot will prompt you to follow certain requirements in order to achieve y
 
 The chatbot also includes a custom tool called ninjaSearch which is designed to bypass bot detection for private websites. 
 The tool will scrape the specified URL and return a summary of the page's contents.
+
+## Note
+
+- I've tested successfully with LinkedIn urls (e.g., https://www.linkedin.com/in/hirokihori), but after a couple of attempts, I started getting rejected. It's still not working at the time of writing this (4/15/2023). I rotated my proxy, but it still blocks me so LinkedIn automatically started blocking requests through Zenrows (?) Not really sure. 
+- I love the fact that the LLM asks me if they are not sure about the answer. Autonomous agents with human-in-the-loop are pretty powerful and I believe that's the way to go. 
 
 ## Contributing
 If you would like to contribute to this project, please submit a pull request on GitHub.
